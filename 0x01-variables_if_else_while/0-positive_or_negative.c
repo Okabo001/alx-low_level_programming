@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
+
+
 /**
  * main Prints if number is postive, negative or negative
  * Return : Always (Success)
@@ -26,4 +28,7 @@ int main(void)
 		printf("%d is negative\n", n);
 		}
 	      return (0);
+
+
 }
+
