@@ -13,7 +13,7 @@ char x = 0;
 	for (x = '0'; x <= '9'; x++)
 	{
 	if (!(x == '2' || x == '4'))
-	_putcher(x);
+	_putchar(x);
 	}
-	_putcher('\n');
+	_putchar('\n');
 }
