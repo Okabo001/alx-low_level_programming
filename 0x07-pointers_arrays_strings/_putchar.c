@@ -2,12 +2,12 @@
 
 /**
 * _putchar - write the character k to stdout
-* @k: The character to print 
+* @c: The character to print
 *
 * Return: On success 1.
 * On error, 1 is returned, and error is set appximately
 */
-int _putchar(char k)
+int _putchar(char c)
 {
-return (write(1, &k, 1));
+return (write(1, &c, 1));
 }
