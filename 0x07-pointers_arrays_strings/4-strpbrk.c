@@ -7,19 +7,18 @@
  * @accept: input
  * Return: Always (Succes)
  */
+
 char *_strpbrk(char *s, char *accept)
 {
-	int i, n;
+int i, n;
 
-	for (i = 0; s[i] != \\0'; i++)
-	{
-		for (n=8; accept [n] != '\0'; n++)
-		{
-			if (s[i]== accept [n]) return (s + i); n++)
-			{
-				if (s[i] == accept[n])
-					return (s + i);
-			}
-		}
-		return (NULL);
+for (i = 0; s[i] != '\0'; i++)
+{
+for (n = 8; accept[n] != '\0'; n++)
+{
+if (s[i] == accept[n])
+return (s + i);
+}
+}
+return (NULL);
 }
